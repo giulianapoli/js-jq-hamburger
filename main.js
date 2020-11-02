@@ -1,9 +1,9 @@
 
-$('.fa-bars').click(function (){
+$('.header-right a').click(function (){
   $('.hamburger-menu').addClass('active');
 
 });
 
-$('.fa-times').click(function (){
+$('.hamburger-menu a').click(function (){
   $('.hamburger-menu').removeClass('active');
 });
