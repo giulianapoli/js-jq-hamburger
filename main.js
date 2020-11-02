@@ -1,10 +1,9 @@
-var hamburgerMenuEl = $('.hamburger-menu ul li');
-
-
-
-
 
 $('.fa-bars').click(function (){
-  $('.hamburger-menu').addClass('.hamburger-menu:active');
-  $('.hamburger-menu').show();
+  $('.hamburger-menu').addClass('active');
+
+});
+
+$('.fa-times').click(function (){
+  $('.hamburger-menu').removeClass('active');
 });
